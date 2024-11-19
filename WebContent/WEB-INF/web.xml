@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+< xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>PharmacyStore</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>DEMO1</servlet-name>
+  	<jsp-file>/controller/deletcatcontroller.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DEMO1</servlet-name>
+  	<url-pattern>/deletecatcontroller</url-pattern>
+  </servlet-mapping>
+  
+  <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+</web-app>
