@@ -9,6 +9,7 @@ Order Management: Process sales and maintain order records.
 Supplier Management: Manage supplier details and stock updates.
 Reports: Generate sales and inventory reports.
 Authentication: Secure user login for administrators and staff.
+Responsive Design: Bootstrap ensures the application is mobile-friendly and visually appealing.
 
 
 Technologies Used -->
